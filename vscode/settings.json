@@ -1,0 +1,58 @@
+{
+    "editor.autoClosingBrackets": "always",
+    "[javascript]": {
+
+        "editor.autoClosingBrackets": "always"
+    },
+    "[typescript]": {
+
+        "editor.autoClosingBrackets": "always"
+    },
+    "bracket-pair-colorizer-2.colors": [
+        "#ff0000",
+        "#ffa500",
+        "#ffff00",
+        "#008000",
+        "#0000ff",
+        "#4b0082",
+        "#ee82ee"
+      ],
+      "bracket-pair-colorizer-2.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+      ],
+      "bracket-pair-colorizer-2.forceIterationColorCycle": false,
+      "bracket-pair-colorizer-2.colorMode": "Consecutive",
+      "bracket-pair-colorizer-2.highlightActiveScope": true,
+      "bracket-pair-colorizer-2.showBracketsInGutter": true,
+      "bracket-pair-colorizer-2.scopeLineRelativePosition": true,
+       "peacock.affectActivityBar": true,
+       "peacock.affectStatusBar": true,
+       "peacock.favoriteColors": [
+         { "name": "Azure Blue", "value": "#00e1ff"},
+         { "name": "Powder Blue", "value": "#b0dce6"},
+         { "name": "Pastel Green", "value": "#c3eccb"},
+         { "name": "Light Pink", "value": "#ffbdd6"},
+         { "name": "Hot Pink", "value": "#ff8ab6"},
+         { "name": "Orange", "value": "#f3a200"}
+       ],
+       "php.validate.enable": true,
+       "editor.tokenColorCustomizations": {
+         "textMateRules": [{
+           "scope":"entity.name.tag",
+           "settings":{
+             "foreground": "#06750b",
+             "fontStyle": "bold"
+           }
+         }],
+        //  "keywords": "#00ad5c",
+        //  "functions": "#c52e00",
+        //  "types": "#0089c9",
+        //  "variables": "#0146a1",
+        //  "numbers": "#bf30cc",
+         "strings": "#ffaf0f",
+        //  "comments": "#7a7a7a"
+       }
+}

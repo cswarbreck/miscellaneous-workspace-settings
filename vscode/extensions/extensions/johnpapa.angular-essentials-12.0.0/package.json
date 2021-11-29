@@ -1,0 +1,53 @@
+{
+	"name": "angular-essentials",
+	"displayName": "Angular Essentials (Version 12)",
+	"description": "Essential extensions for Angular developers",
+	"icon": "images/angular-shield.png",
+	"galleryBanner": {
+		"color": "#0273D4",
+		"theme": "dark"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/johnpapa/vscode-angular-essentials.git"
+	},
+	"scripts": {
+		"package": "npx vsce package",
+		"publish": "npx vsce publish"
+	},
+	"keywords": [
+		"Angular",
+		"Angular 12",
+		"TypeScript",
+		"HTML"
+	],
+	"version": "12.0.0",
+	"publisher": "johnpapa",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"johnpapa.Angular2",
+		"Angular.ng-template",
+		"EditorConfig.EditorConfig",
+		"dbaeumer.vscode-eslint",
+		"msjsdiag.debugger-for-chrome",
+		"msjsdiag.debugger-for-edge",
+		"johnpapa.winteriscoming",
+		"johnpapa.vscode-peacock",
+		"esbenp.prettier-vscode",
+		"eg2.vscode-npm-script",
+		"pkief.material-icon-theme",
+		"nrwl.angular-console"
+	],
+	"__metadata": {
+		"id": "15deda26-afe0-4758-8a3d-cd0aebcbd04f",
+		"publisherId": "4434843a-4ebf-4f44-84f5-4176380c492d",
+		"publisherDisplayName": "John Papa",
+		"installedTimestamp": 1622190577169
+	}
+}

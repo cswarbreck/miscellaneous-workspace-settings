@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>VscodeUi</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <script>
+      // At runtime, VSCode server will replace this empty schema with the one to render.
+      window.VSCODE_UI_SCHEMA = {};
+
+      window.addEventListener('message', (event) => {
+        const taskExecutionSchema = event.data.taskExecutionSchema;
+        if (taskExecutionSchema && window.SET_TASK_EXECUTION_SCHEMA) {
+          window.SET_TASK_EXECUTION_SCHEMA(taskExecutionSchema);
+        }
+      });
+
+      window.vscode = acquireVsCodeApi();
+    </script>
+  <style>@charset "UTF-8";body,html{overflow:hidden!important;margin:0!important;padding:0!important}</style><link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.css"></noscript></head>
+  <body>
+    <vscode-ui-task-execution-form></vscode-ui-task-execution-form>
+  <script src="runtime.js" defer></script><script src="main.js" defer></script>
+
+</body></html>
